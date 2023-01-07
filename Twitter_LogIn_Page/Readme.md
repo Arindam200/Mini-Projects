@@ -2,7 +2,7 @@
 
 My First Development Project
 
-USed: HTML,CSS
+Tech Used: HTML,CSS
 
 Screenshot:
 
