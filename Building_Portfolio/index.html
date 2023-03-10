@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <link rel="shortcut icon" href="Assets/profile-pic.png" type="image/x-icon">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container scroll-smooth select-none">
+        <!-- Landing-page -->
+        <div class="relative min-h-screen min-w-full bg-gradient-to-b from-[#B420FF] via-[#914EFE] to-[#02D1FF]">
+            <!-- Nav-bar -->
+            <nav class="flex flex-wrap pt-6 justify-between">
+                <div class="logo">
+                    <img src="Assets/profile-pic.png" alt="" class="h-16 ml-16" >
+                </div>
+                <div class="btns mr-20 mt-1">
+                    <ul class="flex space-x-8 text-white text-center font-medium text-lg">
+                        <li class="hover:cursor-pointer">Home</li>
+                        <li class="hover:cursor-pointer">About</li>
+                        <li class="hover:cursor-pointer">Blogs</li>
+                        <li class="hover:cursor-pointer">Projects</li>
+                        <li class="hover:cursor-pointer">Contact</li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- hero-page -->
+            <div class="main flex">
+                <div class="left text-white ml-44 pt-40 ">
+                    <p class="text-4xl font-medium">Hey! I'm </p>
+                    <h2 class="text-8xl font-bold">Arindam</h2>
+                    <h3 class="text-5xl font-bold items-center mt-5">Web Developer |</h3>
+
+                    <button class="inline-block mt-10 rounded-md bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75">
+                        <span class="block rounded-sm px-10 py-3 text-sm font-medium bg-transparent text-center text-xl">Resume</span> </button>
+                </div>
+                <div class="right ml-28 mt-10 mb-16">
+                    <img src="Assets/hero.svg" alt="" class="h-[550px]">
+                </div>
+            </div>
+        </div>
+        <!-- Waves -->
+        <img src="Assets/wave.svg" alt="" srcset="">
+        <!-- About Me -->
+        <div class="main">
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!--Card er code -->
+<!-- <div class="flex flex-col justify-center items-center h-[100vh]">
+    <div class="!z-5 relative flex flex-col rounded-[20px] max-w-[300px] bg-white bg-clip-border shadow-3xl shadow-shadow-500 flex flex-col w-full !p-4 3xl:p-![18px] bg-white undefined">
+        <div class="h-full w-full">
+            <div class="relative w-full">
+                <img src="https://horizon-tailwind-react-git-tailwind-components-horizon-ui.vercel.app/static/media/Nft3.3b3e6a4b3ada7618de6c.png" class="mb-3 h-full w-full rounded-xl 3xl:h-full 3xl:w-full" alt="">
+                <button class="absolute top-3 right-3 flex items-center justify-center rounded-full bg-white p-2 text-brand-500 hover:cursor-pointer">
+                    <div class="flex h-full w-full items-center justify-center rounded-full text-xl hover:bg-gray-50">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z"></path></svg>
+                    </div>
+                </button>
+            </div>
+            <div class="mb-3 flex items-center justify-between px-1 md:items-start">
+                <div class="mb-2">
+                    <p class="text-lg font-bold text-navy-700"> Abstract Colors </p>
+                    <p class="mt-1 text-sm font-medium text-gray-600 md:mt-2">By Esthera Jackson </p>
+                </div>
+                <div class="flex flex-row-reverse md:mt-2 lg:mt-0">
+                    <span class="z-0 ml-px inline-flex h-8 w-8 items-center justify-center rounded-full border-2 border-white bg-[#E0E5F2] text-xs text-navy-700 ">+5</span><span class="z-10 -mr-3 h-8 w-8 rounded-full border-2 border-white">
+                        <img class="h-full w-full rounded-full object-cover" src="https://horizon-tailwind-react-git-tailwind-components-horizon-ui.vercel.app/static/media/avatar1.eeef2af6dfcd3ff23cb8.png" alt="">
+                    </span>
+                    <span class="z-10 -mr-3 h-8 w-8 rounded-full border-2 border-white">
+                        <img class="h-full w-full rounded-full object-cover" src="https://horizon-tailwind-react-git-tailwind-components-horizon-ui.vercel.app/static/media/avatar2.5692c39db4f8c0ea999e.png" alt="">
+                    </span>
+                    <span class="z-10 -mr-3 h-8 w-8 rounded-full border-2 border-white">
+                        <img class="h-full w-full rounded-full object-cover" src="https://horizon-tailwind-react-git-tailwind-components-horizon-ui.vercel.app/static/media/avatar3.9f646ac5920fa40adf00.png" alt="">
+                    </span>
+                </div>
+            </div>
+            <div class="flex items-center justify-between md:items-center lg:justify-between ">
+                <div class="flex">
+                    <p class="!mb-0 text-sm font-bold text-brand-500">Current Bid: 0.91 <span>ETH</span></p>
+                </div>
+                <button href="" class="linear rounded-[20px] bg-brand-900 px-4 py-2 text-base font-medium text-white transition duration-200 hover:bg-brand-800 active:bg-brand-700">Place Bid</button>
+            </div>
+        </div>
+    </div>
+    <p class="font-normal text-navy-700 mt-20 mx-auto w-max">Notifications Card component from <a href="https://horizon-ui.com?ref=tailwindcomponents.com" target="_blank" class="text-brand-500 font-bold">Horizon UI Tailwind React</a></p>  
+</div> -->
+
+
+
+
+
+<!-- Button -->
+
+<!--
+<a
+  class="inline-block rounded bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75"
+  href="/download"
+>
+  <span
+    class="block rounded-sm bg-white px-8 py-3 text-sm font-medium hover:bg-transparent"
+  >
+    Download
+  </span>
+</a>
+
+
+
+<a
+  class="inline-block rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75"
+  href="/download"
+>
+  <span
+    class="block rounded-full bg-white px-8 py-3 text-sm font-medium hover:bg-transparent"
+  >
+    Download
+  </span>
+</a> -->
